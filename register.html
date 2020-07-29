@@ -23,10 +23,10 @@
 				<div class="nav-bar">
 					<nav>
 						<ul class="navigation">
-							<li class="nav-active"><a href="file:///C:/Users/Keti/Documents/Unilab-final-project/index.html">home</a></li>
+							<li class="nav-active"><a href="home.html">home</a></li>
 			                <li class="nav-a"><a href="#">shop</a></li>
 			                <li class="nav-a"><a href="#">blog</a></li>
-			                <li class="nav-a"><a href="file:///C:/Users/Keti/Documents/Unilab-final-project/index2.html#">contact us</a></li>
+			                <li class="nav-a"><a href="index2.html">contact us</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -37,30 +37,30 @@
 		</div>
 	</header>
 	<div class="bg-img">
-			<div class="container">
-			    <div class="d-flex">
-			    	<div class="register">
-			    		<form action="/action_page.php">
-						  <h2>Register Form</h2>
-						  <div class="input-container">
-						    <!-- <i class="fa fa-user icon"></i> -->
-						    <input class="input-field" type="text" placeholder="Username" name="usrnm">
-						  </div>
-
-						  <div class="input-container">
-						    <!-- <i class="fa fa-envelope icon"></i> -->
-						    <input class="input-field" type="text" placeholder="Email" name="email">
-						  </div>
-
-						  <div class="input-container">
-						    <!-- <i class="fa fa-key icon"></i> -->
-						    <input class="input-field" type="password" placeholder="Password" name="psw">
-						  </div>
-
-						  <button type="submit" class="btn">Register</button>
-						</form>
-					</div>
+		<div class="container">
+		    <div class="d-flex">
+			<form class="contact-wraper">
+				<h2>Register Form</h2>
+				<div class="forms">
+					<label for="fname">Name</label>
+					<input class="input-group" type="text" name="firstname" id="fname" placeholder="type your name" required>
 				</div>
+
+				<div class="forms">
+					<label for="myemail"> E-mail</label>
+					<input class="input-group" type="text" id="myemail" name="email" placeholder="type your e-mail" required>
+				</div>
+
+				<div class="forms">
+					<label for="password"> Password</label>
+					<input class="input-group" type="password" id="mysubject" name="password" placeholder="type the password" >
+				</div>
+			</form>
+		</div>
+		<div class="btn">
+			<button class="btn-submit" type="submit">Send</button>
+		</div>
+			
 		</div>
 	</div>
 	<footer>
