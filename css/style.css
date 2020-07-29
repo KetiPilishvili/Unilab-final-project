@@ -1,4 +1,5 @@
 
+/*home page*/
 html,body{
 	width: 100%;
 	height:  100%;
@@ -64,6 +65,7 @@ body{
 	margin-top: 30px;
     margin-left: 650px;
 }
+
 .box {
 	position: relative;
 	border-radius: 10px;
@@ -73,6 +75,7 @@ body{
 	margin-top: 300px;
 	margin-left: 750px;
 	background-color: #F5F5F5;
+	animation: bounce 1s infinite alternate;
 }
 .join {
 	position: absolute;
@@ -85,7 +88,19 @@ body{
 }
 .burger {
 	display: none;
+	width: 50px;
+    height: 30px;
 }
+.social {
+	color: #285E70;
+	cursor: pointer;
+}
+.icon {
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+/*register*/
 /* Style the input container */
 .forms-wraper{
 	display: flex;
@@ -99,7 +114,8 @@ body{
 }
 label {
 	padding: 7px;
-	font-family: MyriadPro-Regular;
+	font-family: "Helvetica-Light";
+	color: black;
 }
 .forms {
 	display: flex;
@@ -111,7 +127,6 @@ label {
 }
 .input-group {
 	height: 45px;
-	font-family: 'MyriadPro-Regular';
 	border:none;
 	opacity: 0.9;
     border-radius: 22.5px;
@@ -119,6 +134,9 @@ label {
 	color: darkblue;
     box-shadow: 0 0 3px grey;
 	text-transform: lowercase;
+	font-family: "HelveticaNeue-UltraLight";
+    padding-left: 30px;
+    letter-spacing: 2px;
 }
 .textarea {
 	height: 112px;
@@ -138,6 +156,7 @@ label {
 	height: 35px;
 	border-width: 0;
 	text-transform: uppercase;
+	font-family: "Helvetica-Light";
 	color: #fff;
 	cursor: pointer;
 	outline: none;
@@ -145,30 +164,15 @@ label {
     border-radius: 17.5px;
     opacity: 0.9;
 }
-.register {
-	margin-left: 55%;
-    margin-top: 15%;
-}
+
 h2 {
 	font-size: 25px;
 	padding: 5px;
 	text-align: center;
 }
-.social {
-	color: #285E70;
-	cursor: pointer;
-}
-.icon {
-	margin-top: 15px;
-	margin-right: 20px;
-}
 
 /*contact page*/
 
-.social-icons {
-	display: flex;
-	align-items: flex-start;
-}
 .map {
 	display: inline-block;
 	vertical-align: middle;
@@ -178,5 +182,3 @@ h2 {
     margin-bottom: 52px;
     margin-right: 90px;
 }
-
-
