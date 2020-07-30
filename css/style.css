@@ -191,9 +191,11 @@ h2 {
 	padding: 40px 0 90px 0;
 	background-color: #EBF0F2;
 }
+
 .article-box{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .my-article {
 	width: 290px;
