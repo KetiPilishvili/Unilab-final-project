@@ -7,6 +7,15 @@ html,body{
 body{
 	padding: 1% 0 5% 0;
 }
+header {
+	box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
+}
 .d-flex{
 	display: flex;
 	justify-content: space-between;
@@ -26,7 +35,6 @@ body{
 	justify-content: flex-end;
 	align-items: center;
 	margin-right: 0;
-	font-family: "Helvetica-Light";
 }
 .navigation {
 	width: 560px;
@@ -37,6 +45,7 @@ body{
 .nav-a a{
 	font-size: 24px;
 	color:#A0A2B1 ;
+	font-family: "Helvetica-Light";
 }
 .nav-active a{
 	font-size: 24px;
@@ -132,7 +141,13 @@ label {
     border-radius: 22.5px;
 	outline: none;
 	color: darkblue;
-    box-shadow: 0 0 3px grey;
+    box-shadow:
+	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+	0 12.5px 10px rgba(0, 0, 0, 0.06),
+	0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+	0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+	0 100px 80px rgba(0, 0, 0, 0.12);
 	text-transform: lowercase;
 	font-family: "HelveticaNeue-UltraLight";
     padding-left: 30px;
@@ -169,6 +184,62 @@ h2 {
 	font-size: 25px;
 	padding: 5px;
 	text-align: center;
+}
+/*shop section*/
+.articles {
+	display: flex;
+	padding: 40px 0 90px 0;
+	background-color: #EBF0F2;
+}
+.article-box{
+	display: flex;
+	justify-content: space-between;
+}
+.my-article {
+	width: 290px;
+	height: 456px;
+    background-color: #fff;
+	box-shadow: 0 3px 6px #707070;
+}
+.load {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 48px;
+	font-size: 27px;
+	color: #707070;
+	background-color: #EBF0F2;
+}
+.load p{
+	border-bottom: 1px solid #142F38;
+}
+h3 {
+	font-size: 35px;
+	padding-bottom: 30px;
+	font-family: "HelveticaNeue-UltraLight";
+	color: #285E70;
+}
+.name {
+	padding: 20px 0 30px 25px;
+	font-size: 20px;
+	font-family: "Helvetica-Light";
+	color: #707070;
+}
+h4{
+	font-size: 25px;
+	padding-left: 25px;
+	font-family: "Helvetica-Light";
+	color: #707070;
+}
+.read-item {
+	display: flex;
+	align-content: flex-end;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.read-item p {
+	border-bottom: 1px solid #285E70;
 }
 
 /*contact page*/

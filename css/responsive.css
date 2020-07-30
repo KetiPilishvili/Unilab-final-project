@@ -93,3 +93,50 @@
 	      height: 25px;
 	      width: 200px;
   	}
+
+
+    /*shop page*/
+    @media  (max-width: 360px){
+  h3 {
+    margin-left: 20px;
+  }
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .article-box{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media  (min-width: 992px) and (max-width: 1200px) {
+  .title-box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .my-article {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .article-box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .my-article {
+    margin-top: 50px;
+  }
+
+}
+
+@media (max-width: 375px) {
+   .burger {
+    display: flex;
+      justify-content: flex-end;
+  }
+  .navigation {
+    display: none;
+  }
+}
