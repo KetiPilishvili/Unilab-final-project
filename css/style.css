@@ -106,10 +106,10 @@ header {
     height: 30px;
 }
 .social {
-	color: #285E70;
 	cursor: pointer;
 }
 .icon {
+	color: #285E70;
 	margin-top: 15px;
 	margin-right: 20px;
 }
@@ -268,18 +268,18 @@ h4{
 .social-icons {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	height: 116px;
 	color: #fff;
 }
 .social-icons:first-child{
 	margin-top: 88px;
 }
-
-.fa {
-	margin-top: 30px;
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
-
 /*blog page*/
 .section {
 	background-color: #D1DDE6;
