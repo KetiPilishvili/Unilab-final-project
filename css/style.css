@@ -48,11 +48,17 @@ header {
 	color:#A0A2B1 ;
 	font-family: "Helvetica-Light";
 }
+.nav-a a:hover {
+	color: #000;
+}
 .nav-active a{
 	font-size: 24px;
 	font-family: "Helvetica-Light";
 	color:#000;
 }
+/*.nav-a a:hover.nav-active a{
+	color: red;
+}*/
 .bg-img {
 	background-image: url("../img/background.jpg");
 	background-size: cover;
@@ -67,7 +73,7 @@ header {
 .start {
 	text-transform: uppercase;
 	font-size: 35px;
-	font-family: "SharpGrotesk-light";
+	font-family: "Roboto-Regular";
 	margin-top: 150px;
     margin-left: 700px;
 
@@ -75,7 +81,7 @@ header {
 .health {
 	text-transform: uppercase;
 	font-size: 50px;
-	/*font-family: "SharpGrotesk-light";*/
+	font-family: "Roboto-Regular";
 	margin-top: 30px;
     margin-left: 650px;
 }
@@ -95,7 +101,7 @@ header {
 	position: absolute;
 	text-transform: lowercase;
 	font-size: 25px;
-	font-family: "SharpGrotesk-light";
+	font-family: "Roboto-Regular";
 	padding-top: 7px;
 	padding-left: 40px;
 	text-align: center;
@@ -188,7 +194,7 @@ label {
 
 h2 {
 	font-size: 25px;
-	font-family: "SharpGrotesk-light";
+	font-family: "Roboto-Regular";
 	padding: 5px;
 	text-align: center;
 }
@@ -234,7 +240,7 @@ h4 {
     justify-content: flex-end;
     margin-right: 10px;
     font-size: 14px;
-    font-family: "SharpGrotesk-light";
+    font-family: "Roboto-Regular";
     color: #707070;
     
 }
@@ -250,7 +256,7 @@ h4 {
     font-size: 25px;
     color: #707070;
     background-color: #EBF0F2;
-    font-family: "SharpGrotesk-light";
+    font-family: "Roboto-Regular";
     color: #285E70;
 }
 .load p{
@@ -266,7 +272,7 @@ h4 {
 	align-items: flex-start;
 	max-width: 543px;
 	width: 100%;
-	height: 513px;
+	height: 504px;
 }
 .article-img2 {
 	background-image: url("../img/art2.jpg");
@@ -276,8 +282,7 @@ h4 {
 	align-items: flex-start;
 	max-width: 543px;
 	width: 100%;
-	height: 513px;
-	margin-bottom: 65px
+	height: 504px;
 }
 .article-img3 {
 	background-image: url("../img/art3.jpg");
@@ -288,7 +293,7 @@ h4 {
 	align-items: flex-start;
 	max-width: 543px;
 	width: 100%;
-	height: 513px;
+	height: 504px;
 }
 .article-title{
 	color: #285E70;
@@ -327,7 +332,10 @@ h3 {
 
 /*contact page*/
 .contact {
-	background-color: #142F38;
+	background-color: #F5F5F5;
+}
+.contact:hover {
+	background-color: #D1DDE6;
 }
 .map {
 	display: flex;
@@ -341,7 +349,7 @@ h3 {
 	flex-direction: column;
 	justify-content: space-between;
 	height: 116px;
-	color: #fff;
+	color: #000;
 }
 .social-icons:first-child{
 	margin-top: 88px;
