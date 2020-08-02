@@ -1,4 +1,4 @@
-/*home page*/
+/*register page*/
 @media (max-width: 990px) {
   .btn {
 	margin-left: 720px;
@@ -93,14 +93,13 @@
 	      height: 25px;
 	      width: 200px;
   	}
-
+}
 
     /*shop page*/
     @media  (max-width: 360px){
   h3 {
     margin-left: 20px;
   }
-
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .article-box{
@@ -113,12 +112,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
-  .my-article {
-    margin-top: 50px;
-  }
 }
-
 @media (max-width: 1150px) {
   .article-box {
     flex-wrap: wrap;
@@ -129,8 +123,21 @@
     margin-top: 50px;
   }
 
-}
+@media (max-width:600px) {
+  h3 {
+    padding: 0;
+  }
+  .articles {
+    padding-bottom:  0;
+  }
+  .my-article {
+    margin-bottom: 0;
+  }
+  .load {
+    padding-top: 20px;
+  }
 
+}
 @media (max-width: 375px) {
    .burger {
     display: flex;
@@ -140,3 +147,28 @@
     display: none;
   }
 }
+
+/*contact page*/
+/*@media (max-width: 670px) {
+  .map {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+    height: 300px;
+  }
+  .social-icons {
+  align-items: flex-end;
+  margin-top: 188px;
+ }
+}
+@media (max-width: 360px) {
+  .map {
+    margin-left: 10px;
+    margin-top: 0;
+    width: 200px;
+    height: 100px;
+  }
+  .social-icons {
+    margin-top: 120px;
+  }
+}*/
