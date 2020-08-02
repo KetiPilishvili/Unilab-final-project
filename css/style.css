@@ -1,13 +1,8 @@
-
-/*home page*/
-/*html,body{
-	width: 100%;
-	height:  100%;
+.shop {
+	background-color: #D1DDE6
 }
-body{
-	padding: 1% 0 5% 0;
-}*/
 header {
+	background-color: #fff;
 	box-shadow:
 	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -56,9 +51,9 @@ header {
 	font-family: "Helvetica-Light";
 	color:#000;
 }
-/*.nav-a a:hover.nav-active a{
+.nav-a a:hover.nav-active{
 	color: red;
-}*/
+}
 .bg-img {
 	background-image: url("../img/background.jpg");
 	background-size: cover;
@@ -96,7 +91,13 @@ header {
 	margin-top: 300px;
 	margin-left: 750px;
 	background-color: #F5F5F5;
-	animation: bounce 1s infinite alternate;
+}
+.box:hover {
+	animation-name: example;
+    /*animation-duration: 4s;*/
+    transform: scale(1.2) ;
+	transition: transform .3s;
+	animation-timing-function: ease-in-out;
 }
 .join {
 	position: absolute;
@@ -205,7 +206,6 @@ h2 {
     padding: 40px 0 90px 0;
     background-color: #EBF0F2;
 }
-
 h3 {
     font-size: 35px;
     padding-bottom: 30px;
@@ -228,6 +228,12 @@ h4 {
     padding-left: 25px;
     font-family: "Helvetica-Light";
     color: #707070;
+}
+.my-article:hover {
+	transform: scale(1.1) ;
+	transition: transform .2s;
+	animation-timing-function: ease-in-out;
+
 }
 .name {
     padding: 20px 0 30px 25px;
@@ -265,7 +271,6 @@ h4 {
 	border-bottom: 1px solid #142F38;
 }
 /*blog page*/
-
 .article-img1 {
 	background-image: url("../img/art1.jpg");
 	background-repeat: no-repeat;
@@ -299,31 +304,41 @@ h4 {
 }
 .article-title{
 	color: #285E70;
-	font-size: 20px;
-	padding-left: 15px;
-	white-space: nowrap;
+    font-size: 20px;
+    padding-left: 15px;
+    white-space: nowrap;
+    margin-top: 16px;
+    width: 28px;
 }
 .text{
-	margin: 94px 63px 41px 15px;
-	width: 461px;
-	height: 375px;
-	font-size: 16px;
-	font-family: "Helvetica-Light";
+	margin: 94px 0 0 0;
+    width: 461px;
+    height: 375px;
+    font-size: 16px;
+    font-family: "Helvetica-Light";
 }
-.arrow {
-	height: 25px;
-	width: 25px;
-	color: blue;
+.read-it p{
+	cursor: pointer;
+	padding: 380px 10px 0 0;
+    border-bottom: 1px solid #142F38;
 }
 .blog-section{
+	padding-bottom: 30px;
+}
+.blog-load{
 	background-color: #D1DDE6;
+	color: #285E70;
+	margin:40px 0 0 0;
+	text-align: center;
+	cursor: pointer;
+	font-family: "Roboto-Regular";
+	font-size: 25px;
 }
 .last-section {
 	display: flex;
 	height:513px;
 	background-color: #fff;
 	border: 5px solid #285E70;
-
 }
 h3 {
 	font-size: 35px;
@@ -360,4 +375,12 @@ h3 {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+}
+
+
+@keyframes example {
+  0%   {background-color: #D1DDE6;}
+  25%  {background-color: #285E70;}
+  50%  {background-color: #285E70;}
+  100% {background-color: #EBF0F2;}
 }
