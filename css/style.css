@@ -27,10 +27,13 @@ header {
     width: 100%;
     margin: 0 auto;
 }
-
 .logo {
 	display: flex;
 	justify-content: flex-start;
+}
+.footer-logo {
+	display: flex;
+	justify-content: flex-end;
 }
 .nav-bar {
 	display: flex;
@@ -66,7 +69,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	height: 560px;
+	height: 610px;
 }
 .title {
 	position: absolute;
@@ -115,11 +118,14 @@ header {
 }
 .burger {
 	display: none;
+	cursor: pointer;
 	width: 50px;
     height: 30px;
 }
 .social {
 	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
 }
 .icon {
 	color: #285E70;
@@ -358,6 +364,7 @@ h3 {
 /*contact page*/
 .contact {
 	background-color: #F5F5F5;
+	height: 610px;
 }
 .contact:hover {
 	animation-name: example;
