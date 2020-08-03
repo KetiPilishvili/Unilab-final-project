@@ -80,7 +80,6 @@ header {
 	font-family: "Roboto-Regular";
 	margin-top: 150px;
     margin-left: 700px;
-
 }
 .health {
 	text-transform: uppercase;
@@ -90,7 +89,6 @@ header {
 	margin-top: 30px;
     margin-left: 650px;
 }
-
 .box {
 	position: relative;
 	border-radius: 10px;
@@ -203,7 +201,6 @@ label {
     border-radius: 17.5px;
     opacity: 0.9;
 }
-
 h2 {
 	font-size: 25px;
 	font-family: "Roboto-Regular";
@@ -262,8 +259,7 @@ h4 {
     font-size: 14px;
     font-family: "Roboto-Regular";
     color: #707070;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 .read-item p{
 	border-bottom: 1px solid #285E70;
@@ -353,7 +349,6 @@ h4 {
 	font-family: "Roboto-Regular";
 	font-size: 25px;
 }
-
 h3 {
 	font-size: 35px;
 	font-family: "HelveticaNeue-UltraLight";
